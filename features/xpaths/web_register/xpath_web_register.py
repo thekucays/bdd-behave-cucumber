@@ -1,0 +1,1 @@
+email_input_register = "//input[contains(@id, 'email')]"

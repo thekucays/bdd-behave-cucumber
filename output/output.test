@@ -1,0 +1,63 @@
+[
+  {
+    "status": "passed",
+    "elements": [
+      {
+        "status": "passed",
+        "name": "say hello",
+        "keyword": "Scenario",
+        "tags": [],
+        "steps": [
+          {
+            "name": "buka aplikasi",
+            "keyword": "Given",
+            "step_type": "given",
+            "result": {
+              "status": "passed",
+              "duration": 5.384941101074219
+            },
+            "match": {
+              "location": "steps/tesrun.py:11",
+              "arguments": []
+            },
+            "location": "tesrun.feature:3"
+          },
+          {
+            "name": "masuk ke halaman login dan input data",
+            "keyword": "When",
+            "step_type": "when",
+            "result": {
+              "status": "passed",
+              "duration": 23.66708493232727
+            },
+            "match": {
+              "location": "steps/tesrun.py:20",
+              "arguments": []
+            },
+            "location": "tesrun.feature:4"
+          },
+          {
+            "name": "tes printout then",
+            "keyword": "Then",
+            "step_type": "then",
+            "result": {
+              "status": "passed",
+              "duration": 0.00012302398681640625
+            },
+            "match": {
+              "location": "steps/tesrun.py:30",
+              "arguments": []
+            },
+            "location": "tesrun.feature:5"
+          }
+        ],
+        "location": "tesrun.feature:2",
+        "type": "scenario"
+      }
+    ],
+    "name": "tes run feature",
+    "keyword": "Feature",
+    "tags": [],
+    "location": "tesrun.feature:1"
+  }
+]
